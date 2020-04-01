@@ -48,7 +48,7 @@ def clean(text: str) -> str:
 
 def main() -> ():
     out_name = 'out.png'
-    write(preformat(get_img('kabu2.jpeg')), out_name)
+    write(preformat(get_img('kabu.jpeg')), out_name)
     print(clean(image2text(out_name)))
 
 
